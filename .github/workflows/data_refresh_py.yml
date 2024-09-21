@@ -2,7 +2,7 @@ name: Data Refresh - Python
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "*/10 * * * *"
 jobs:
   refresh-the-dashboard:
     runs-on: ubuntu-22.04
